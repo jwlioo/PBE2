@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="estilos.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastramento de cliente</title>
+</head>
+
+<body>
+
+
+	<img src="./img/Designer.png" alt="">
+
+	<h1>CADASTRO DO CLIENTE</h1>
+	<form id="cadastroClienteForm">
+		<label for="nome"> Nome do cliente:</label>
+		<input type="text" name="nomeCliente" id="nomeCliente" required="required" autofocus><br>
+
+		<br>
+		<label for="nome"> CPF do Cliente:</label>
+		<input type="text" name="nome" id="cpf" required placeholder="000.000.000-00" autofocus><br>
+
+		<br>
+		<label for="telefone"> telefone do cliente:</label>
+		<input type="tel" name="telefone" id="telefone" required placeholder="(00) 0000-0000"><br>
+        
+
+		<label for="nome"> data de nascimento:</label>
+		<input type="date" name="nome" id="dataNascimento" required="required" autofocus><br>
+
+		<label for="email"> E-mail de contato:</label>
+		<input type="email" name="email" id="email" required placeholder="Exemplo: email@gmail.com"><br>
+
+		<button type="submit" name="enviar" value="Enviar">Enviar</button>
+
+	</form>
+
+	<script src="scriptCadastro.js"></script>
+
+
+</body>
+
+</html>
